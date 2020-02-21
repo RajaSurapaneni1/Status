@@ -17,7 +17,9 @@ import java.util.Scanner;
  * @author srinivsi
  */
 public class Status {
-
+private enum Stats {
+        ZERO("1"),ONE("2"), TWO("3"), THREE("4");
+    
     /**
      * @param args the command line arguments
      */
